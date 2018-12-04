@@ -1,0 +1,32 @@
+//
+//  MusicPlayer.pch
+//  MusicPlayer
+//
+//  Created by Y Liu on 15/12/20.
+//  Copyright © 2015年 DeveloperLY. All rights reserved.
+//
+
+#ifndef MusicPlayer_pch
+#define MusicPlayer_pch
+
+#define kNotificationPlayFinish @"notificationPlayFinish"
+
+#import "UIView+Extension.h"
+#import "AppDelegate.h"
+
+
+#define ScreenHeight [[UIScreen mainScreen] bounds].size.height
+#define ScreenWidth [[UIScreen mainScreen] bounds].size.width
+
+//颜色
+#define UIColorFromRGB(rgbValue) [UIColor                    \
+colorWithRed: ((float)((rgbValue & 0xFF0000) >> 16)) / 255.0 \
+green: ((float)((rgbValue & 0xFF00) >> 8)) / 255.0           \
+blue: ((float)(rgbValue & 0xFF)) / 255.0 alpha : 1.0]
+
+#define UIColorRGBA(rgbValue,a) [UIColor                    \
+colorWithRed: ((float)((rgbValue & 0xFF0000) >> 16)) / 255.0 \
+green: ((float)((rgbValue & 0xFF00) >> 8)) / 255.0           \
+blue: ((float)(rgbValue & 0xFF)) / 255.0 alpha:a]
+
+#endif /* MusicPlayer_pch */

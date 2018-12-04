@@ -1,0 +1,17 @@
+//
+//  MusicPlayer.pch
+//  MusicPlayer
+//
+//  Created by Y Liu on 15/12/20.
+//  Copyright © 2015年 DeveloperLY. All rights reserved.
+//
+
+#ifndef MusicPlayer_pch
+#define MusicPlayer_pch
+
+#define kNotificationPlayFinish @"notificationPlayFinish"
+
+#import "UIView+Extension.h"
+
+
+#endif /* MusicPlayer_pch */
